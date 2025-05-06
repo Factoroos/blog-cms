@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'root', '', 'simple_blogdb');
+$conn = new mysqli('localhost', 'root', '', 'simple_posts');
 if ($conn->connect_error) {
   die("Conexión fallida: " . $conn->connect_error);
 }
